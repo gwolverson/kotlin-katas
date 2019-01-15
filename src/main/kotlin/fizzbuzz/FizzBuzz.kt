@@ -1,5 +1,9 @@
 package fizzbuzz
 
+import extensions.divisibleBy3
+import extensions.divisibleBy3And5
+import extensions.divisibleBy5
+
 class FizzBuzz {
 
     fun generateFizzBuzzSequence(sequenceSize: Int) : List<String> {
@@ -16,16 +20,4 @@ class FizzBuzz {
             }
         }
     }
-}
-
-fun Int.divisibleBy3() : Boolean {
-    return this % 3 == 0
-}
-
-fun Int.divisibleBy5() : Boolean {
-    return this % 5 == 0
-}
-
-fun Int.divisibleBy3And5() : Boolean {
-    return this % 3 == 0 && this % 5 == 0
 }
