@@ -5,7 +5,6 @@ import org.junit.jupiter.api.BeforeAll
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.TestInstance
 import java.math.BigDecimal
-import java.math.MathContext
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 class StringCalculatorTest {
